@@ -23,10 +23,12 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSMinimumSystemVersion</key>
-	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
-	<key>NSMainNibFile</key>
-	<string>MainMenu</string>
+	<string>12.0</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSUsageDescription</key>
+	<string>ProcessTree needs access to system processes to display the process tree and allow process management.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>ProcessTree may need to send Apple Events to manage processes.</string>
 </dict>
 </plist>
